@@ -1,6 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 100vh;
+}
+
 .sidebar-grid {
     display: grid;
-    grid-template-columns: 75px;
+    grid-template-columns: auto;
     grid-template-rows: auto auto auto;
-    gap: 32px;
+    row-gap: 15px;
+    min-width: 250px;
+    background-color: green;
+}    
+
+.main-page {
+    background-color:aquamarine;
+}
+
+.a {
+    background-color:burlywood;
 }
